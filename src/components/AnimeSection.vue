@@ -1,14 +1,15 @@
 <template>
-    <div class="card">
+    <div class="border p-2 rounded-4 border-secondary">
+        <img :src="bottomImageSrc" alt="Bottom Image" class="img-fluid py-1 rounded-4 w-100">
       <div class="card-body">
-        <img :src="bottomImageSrc" alt="Bottom Image" class="img-fluid mb-3">
-        <div class="d-flex justify-content-between align-items-center mb-3">
-          <h2 class="card-title mb-0">{{ title }}</h2>
-          <img :src="imageSrc" alt="Image" class="img-fluid" style="max-width: 100px;">
+        
+        <div class="d-flex justify-content-between align-items-center py-2 ">
+          <p class="card-title fw-bold">{{ title }}</p>
+           <p class="fw-bold"> <img :src="imageSrc" alt="Image" class="img-fluid "> 68 </p>
         </div>
         
-        <div class="border p-2 text-center">
-          Ce texte ne peut pas être changé
+        <div class="border p-2 text-center rounded-3 border-dark fw-semibold">
+            Place a Bid
         </div>
       </div>
     </div>
