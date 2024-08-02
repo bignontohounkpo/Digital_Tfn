@@ -16,53 +16,45 @@ export default {
     <!-- Debut du Header -->
     
       <div class="container ">
-        <nav class="navbar navbar-expand-lg container justify-content-between">
-          <a class="navbar-brand" href="#">
-            <img src="../assets/Images/Frame.svg" alt="Logo" class="" />
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse align-items-center" id="navbarNav ">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link fw-bolder" href="Home">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link fw-bolder" href="Top Sales">Top sales</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link fw-bolder" href="Collections">Collections</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link fw-bolder" href="Our Blog">Our Blog</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link fw-bolder" href="About us">About us</a>
-              </li>
-            </ul>
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <p class="">
-                  <a class="nav-link fw-bold pt-3" href="#">Sign up</a>
-                </p>
-              </li>
-              <li class="nav-item">
-                <p class="">
-
-                  <a class="nav-link fw-bold" href="#">
-                    |
-                    <button class="btn btn-dark fw-bold rounded-5 fs-5">
-                      Connect Wallet
-                    </button>
-                  </a>
-                </p>
-              </li>
-            </ul>
-          </div>
-
-        </nav>
+        <nav class="navbar navbar-expand-lg ">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="../assets/Images/Frame.svg" alt="Logo" />
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link fw-bolder" href="Home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-bolder" href="Top Sales">Top sales</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-bolder" href="Collections">Collections</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-bolder" href="Our Blog">Our Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-bolder" href="About Us">About us</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link fw-bold" href="#">Sign up</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-bold" href="#">
+              <button class="btn btn-dark fw-bold rounded-5 fs-5">Connect Wallet</button>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
       </div>
 
