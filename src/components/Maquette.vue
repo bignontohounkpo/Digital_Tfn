@@ -42,14 +42,15 @@ export default {
             <a class="nav-link fw-bolder" href="About Us">About us</a>
           </li>
         </ul>
-        <ul class="navbar-nav ms-auto">
+        <ul class="navbar-nav ms-auto ">
           <li class="nav-item">
-            <a class="nav-link fw-bold" href="#">Sign up</a>
+           <p class=" fw-bold pt-3" >Sign up</p> 
           </li>
           <li class="nav-item">
-            <a class="nav-link fw-bold" href="#">
-              <button class="btn btn-dark fw-bold rounded-5 fs-5">Connect Wallet</button>
-            </a>
+             <a class="nav-link fw-bold" href="#">
+            
+            <p class="">| <button class="btn btn-dark fw-bold rounded-5 fs-5">Connect Wallet</button> </p>
+            </a> 
           </li>
         </ul>
       </div>
@@ -102,12 +103,12 @@ export default {
           <button class="btn btn-dark px-lg-3 px-2 me-lg-2 me-1 mt-2 mt-md-2 " style="background: #0e1218">
             All categories
           </button>
-          <button className="btn  px-lg-3 px-2 mx-lg-2 mx-1 mt-2 mt-md-2 back rounded-3">Art</button>
+          <button className="btn  px-lg-3 px-2 mx-lg-2 mx-1 mt-2 mt-md-2 back rounded-3 ">Art</button>
           <button class="btn  px-lg-3 px-2 mx-lg-2 mx-1 mt-2 mt-md-2 back rounded-3">Collections</button>
-          <button class="btn  px-lg-3 px-2 mx-lg-2 mx-1 mt-2 mt-md-2 back rounded-3">Gaming</button>
-          <button class="btn  px-lg-3 px-2 mx-lg-2 mx-1 mt-2 mt-md-2 back rounded-3">Sport</button>
+          <button class="btn  px-lg-3 px-2 mx-lg-2 mx-1 mt-2 mt-md-2 back rounded-3 ">Gaming</button>
+          <button class="btn  px-lg-3 px-2 mx-lg-2 mx-1 mt-2 mt-md-2 back rounded-3 ">Sport</button>
         </p>
-        <p class="text-end text-decoration-underline line link-offset-2-hover d-none d-md-inline">Views more </p>
+        <p class="text-end text-decoration-underline line link-offset-2-hover  ">Views more </p>
       </div>
 
     </section>
@@ -120,7 +121,7 @@ export default {
           <div class="border p-2 rounded-4 border-secondary ">
             <img src="../assets/Images/image4.svg " alt="" class="img-fluid py-1 rounded-4 " style="height: 100%;">
             <div class="d-flex justify-content-between align-items-center py-2  pt-5">
-              <p class="card-title fw-bold">Boll - Upper</p>
+              <p class="card-title fw-bold "> Boll - Upper</p>
               <p class="fw-bold"><img src="../assets/Images/ethereum-ellipse.svg" alt="" class="img-fluid "> 68 </p>
             </div>
 
@@ -165,7 +166,7 @@ export default {
       </div>
     </section>
     <section class=" container">
-      <div class=" p1 py-4 rounded-4">
+      <div class=" p1 py-5  rounded-4 ">
         <div class="text-center">
             <p class="text-white display-4">Build your NFT profile</p>
             <p class="text-white">Join almost 10k NFT profiles on Digit !</p>
@@ -201,6 +202,8 @@ export default {
 </template>
 
 <style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
 .back {
   background: #b8babe;
 }
